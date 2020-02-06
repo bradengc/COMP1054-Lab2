@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('img/geometricyellow.jpg');
+  background-size: cover;
+  margin: 15px;
+  padding: 30px;
+}
+
+header > h1 {
+  font-size: 2.2em;
+  font-family: 'Caveat Brush';
+  color: purple;
+  text-shadow: 2px 2px black;
+}
+
+header > h2 {
+  font-size: 1.8em;
+  font-family: 'Caveat Brush';
+  color: purple;
+  text-shadow: 2px 2px black;
+}
+
+table {
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+th{
+  font-size: 1.4em;
+  font-family: 'Open Sans';
+}
+
+td{
+  font-size: 1.2em;
+  font-family: 'Open Sans';
+  text-align: center;
+  color: purple;
+  padding: 8px;
+}
+
+section:nth-child(2) > h2{
+  font-size: 1.8em;
+  font-family: 'Open Sans';
+  color: purple;
+  margin-left: 30px;
+}
+
+form{
+  width: 25%;
+  margin-left: 50px;
+}
+
+input,
+textarea,
+label{
+  display: block;
+}
+
+label{
+  font-size: 1.2em;
+  font-family: 'Open Sans';
+  color: purple;
+}
+
+input,
+textarea{
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+
+input{
+  border: none;
+  box-shadow: 1px 1px 1px 1px purple inset;
+}
